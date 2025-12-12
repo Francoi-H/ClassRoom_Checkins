@@ -99,7 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #010103ff 0%, #3c3935ff 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -117,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         }
         
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #030106ff 100%);
             color: white;
             padding: 30px;
             text-align: center;
@@ -157,8 +157,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         }
         
         .tab.active {
-            color: #667eea;
-            border-bottom: 3px solid #667eea;
+            color: #bf961bff;
+            border-bottom: 3px solid #bf961bff;
             margin-bottom: -2px;
         }
         
@@ -201,7 +201,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         .form-group input:focus,
         .form-group select:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #bf961bff;
         }
         
         .form-group input.error {
@@ -237,7 +237,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         .btn {
             width: 100%;
             padding: 14px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #bf961bff 0%, #bf961bff 100%);
             color: white;
             border: none;
             border-radius: 8px;
@@ -278,7 +278,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
 <body>
     <div class="container">
         <div class="header">
-            <h1>📚 Classroom Check-in</h1>
+            <h1> Classroom Check-in</h1>
             <p>Streamlined Attendance Management System</p>
         </div>
         
@@ -523,6 +523,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         });
     </script>
 </body>
-
 </html>
-

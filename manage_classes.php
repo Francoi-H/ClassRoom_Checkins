@@ -159,7 +159,7 @@ $stmt->close();
         }
         
         .navbar {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #030005ff 100%);
             color: white;
             padding: 20px 40px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -265,12 +265,12 @@ $stmt->close();
         .form-group select:focus,
         .form-group textarea:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #bf961bff;
         }
         
         .btn {
             padding: 12px 24px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #bf961bff 0%, #bf961bff 100%);
             color: white;
             border: none;
             border-radius: 8px;
@@ -309,7 +309,7 @@ $stmt->close();
             background: #f8f9fa;
             border-radius: 12px;
             padding: 20px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #bf961bff;
             transition: all 0.3s;
         }
         
@@ -325,7 +325,7 @@ $stmt->close();
         }
         
         .class-card .class-code {
-            color: #667eea;
+            color: #bf961bff;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 10px;
@@ -370,7 +370,7 @@ $stmt->close();
 </head>
 <body>
     <div class="navbar">
-        <h1><?php echo is_instructor() ? '📚 Create & Manage Classes' : '📚 Browse & Enroll in Classes'; ?></h1>
+        <h1><?php echo is_instructor() ? ' Create & Manage Classes' : ' Browse & Enroll in Classes'; ?></h1>
         <button class="back-btn" onclick="window.location.href='dashboard.php'">← Back to Dashboard</button>
     </div>
     

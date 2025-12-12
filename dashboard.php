@@ -31,7 +31,7 @@ $first_name = $_SESSION['first_name'];
         }
         
         .navbar {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #010001ff 100%);
             color: white;
             padding: 20px 40px;
             display: flex;
@@ -76,7 +76,7 @@ $first_name = $_SESSION['first_name'];
         
         .navbar .logout-btn:hover {
             background: white;
-            color: #667eea;
+            color: #bf961bff;
         }
         
         .container {
@@ -123,7 +123,7 @@ $first_name = $_SESSION['first_name'];
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
             transition: all 0.3s;
             cursor: pointer;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #534a15ff;
         }
         
         .class-card:hover {
@@ -138,7 +138,7 @@ $first_name = $_SESSION['first_name'];
         }
         
         .class-card .class-code {
-            color: #667eea;
+            color: #bf961bff;
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 10px;
@@ -151,7 +151,7 @@ $first_name = $_SESSION['first_name'];
         }
         
         .class-card .btn {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #bf961bff 0%, #bf961bff 100%);
             color: white;
             border: none;
             padding: 10px 20px;
@@ -220,19 +220,19 @@ $first_name = $_SESSION['first_name'];
         .stat-card .number {
             font-size: 36px;
             font-weight: bold;
-            color: #667eea;
+            color: #a67b16ff;
             margin-bottom: 10px;
         }
         
         .stat-card .label {
-            color: #666;
+            color: #a67b16ff;
             font-size: 14px;
         }
     </style>
 </head>
 <body>
             <div class="navbar">
-        <h1>📚 Classroom Check-in System</h1>
+        <h1>Classroom Check-in System</h1>
         <div class="user-info">
             <span class="user-name">Hello, <?php echo htmlspecialchars($first_name); ?>!</span>
             <span class="badge"><?php echo ucfirst($user_type); ?></span>

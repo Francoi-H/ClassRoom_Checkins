@@ -47,7 +47,7 @@ $stmt->close();
         
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #c7bcd1ff 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -94,7 +94,7 @@ $stmt->close();
         }
         
         .class-header .class-code {
-            color: #667eea;
+            color: #bf961bff;
             font-size: 18px;
             font-weight: 600;
         }
@@ -187,7 +187,7 @@ $stmt->close();
         .btn {
             width: 100%;
             padding: 15px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #bf961bff 0%, #bf961bff 100%);
             color: white;
             border: none;
             border-radius: 10px;
@@ -200,7 +200,7 @@ $stmt->close();
         
         .btn:hover:not(:disabled) {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
         }
         
         .btn:disabled {
@@ -244,7 +244,7 @@ $stmt->close();
         
         .loading-spinner {
             border: 3px solid #f3f3f3;
-            border-top: 3px solid #667eea;
+            border-top: 3px solid #000000ff;
             border-radius: 50%;
             width: 50px;
             height: 50px;

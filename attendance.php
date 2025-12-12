@@ -110,7 +110,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_attendance']))
         }
         
         .navbar {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #020005ff 100%);
             color: white;
             padding: 20px 40px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -197,9 +197,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_attendance']))
         }
         
         .tab-btn.active {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #000000ff 100%);
             color: white;
-            border-color: #667eea;
+            border-color: #000000ff;
         }
         
         .tab-content {
@@ -247,12 +247,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_attendance']))
         .form-group input:focus,
         .form-group select:focus {
             outline: none;
-            border-color: #667eea;
+            border-color: #000000ff;
         }
         
         .btn {
             padding: 12px 24px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #000000ff 0%, #000000ff 100%);
             color: white;
             border: none;
             border-radius: 8px;
@@ -264,7 +264,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_attendance']))
         
         .btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+            box-shadow: 0 4px 12px rgba(213, 107, 7, 0.4);
         }
         
         .btn-small {
@@ -377,7 +377,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_attendance']))
         .stat-box .number {
             font-size: 32px;
             font-weight: bold;
-            color: #667eea;
+            color: #d07d18ff;
             margin-bottom: 5px;
         }
         
@@ -389,7 +389,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['update_attendance']))
 </head>
 <body>
     <div class="navbar">
-        <h1>📊 <?php echo htmlspecialchars($class['class_name']); ?> - <?php echo htmlspecialchars($class['class_code']); ?></h1>
+        <h1> <?php echo htmlspecialchars($class['class_name']); ?> - <?php echo htmlspecialchars($class['class_code']); ?></h1>
         <button class="back-btn" onclick="window.location.href='dashboard.php'">← Back to Dashboard</button>
     </div>
     
