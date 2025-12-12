@@ -1,5 +1,6 @@
 <?php
-require_once 'config.php';
+require_once __DIR__ . '/bootstrap.php';
+ensure_db_ready();
 
 if (!is_logged_in() || !is_instructor()) {
     redirect('login.php');

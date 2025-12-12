@@ -1,0 +1,121 @@
+How to setup application
+
+1. Install XAMPP/AMPPS on the new laptop
+
+2. Open XAMPP/AMPPS Control Panel
+
+3. Start Apache
+
+4. Start MySQL
+
+5. Unzip the project
+
+6. Move the folder to "www" in AMPPS
+
+7. Ensure the folder name is classroom-checkin
+
+8. Open a browser
+
+9. Go to http://localhost/classroom-checkin/install.php
+
+10. Confirm you see setup instructions (database not ready yet)
+
+11. Open http://localhost/phpmyadmin
+
+12. Create a database named classroom_checkin
+
+13. Import the schema.sql
+
+14. Refresh http://localhost/classroom-checkin/install.php
+
+15. Confirm you see “Database detected”
+
+16. Go to http://localhost/classroom-checkin/login.php
+
+
+
+
+Navigating the app
+
+
+1. Register account as a student or instructor (ideally register in as instructor first)
+
+(Student)
+Go to http://localhost/classroom-checkin/login.php
+
+Enter student email
+
+Enter student password
+
+Click Login
+
+You are redirected to the student dashboard
+
+Review your enrolled classes and available sessions
+
+Navigate to the Check-In page
+
+Select the correct class session
+
+Allow browser location access when prompted
+
+Click Verify Location
+
+Wait for confirmation that you are within range
+
+Click Check In
+
+Receive confirmation message for successful check-in
+
+Navigate to Attendance History
+
+View past attendance records and timestamps
+
+Click Logout
+
+Session ends and you are returned to the login page
+
+
+
+
+
+
+
+
+
+
+(instructor)
+Go to http://localhost/classroom-checkin/login.php
+
+Enter instructor email
+
+Enter instructor password
+
+Click Login
+
+You are redirected to the instructor dashboard
+
+View assigned classes and session statistics
+
+Navigate to Sessions
+
+View all class sessions (date, time, location, status)
+
+Activate or deactivate class sessions as needed
+
+Confirm session location and radius
+
+Navigate to Attendance Overview
+
+Select a class session
+
+View list of students checked in
+
+Review check-in times and locations
+
+Log out of the instructor account
+
+Session ends and you are returned to the login page
+
+
+
