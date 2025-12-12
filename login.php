@@ -1,5 +1,6 @@
 <?php
-require_once 'config.php';
+require_once __DIR__ . '/bootstrap.php';
+ensure_db_ready();
 
 if (is_logged_in()) {
     redirect('dashboard.php');
@@ -522,4 +523,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
         });
     </script>
 </body>
+
 </html>
